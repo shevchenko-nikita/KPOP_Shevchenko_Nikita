@@ -86,7 +86,7 @@ console.log(myID);
 var IdGenerator;
 IdGenerator = createCustomerID;
 console.log(IdGenerator('Kate', 11));
-getWorkersNamesByCategory();
+logWorkersNames(getWorkersNamesByCategory());
 logFirstAvailable();
 createCustomer('Ann');
 createCustomer('Ann', 27);
