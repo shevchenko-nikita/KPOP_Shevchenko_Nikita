@@ -1,0 +1,7 @@
+<div>
+    <input type="text" [(ngModel)]="nameInput" placeholder="Enter name"/>
+    <input type="number" [(ngModel)]="salaryInput"  placeholder="Enter salary"/>
+    <button (click)="addEmployee()">Add employee</button>
+</div>
+
+<app-child [employees]="employees"></app-child>

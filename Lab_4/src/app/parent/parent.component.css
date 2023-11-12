@@ -1,0 +1,14 @@
+input, button {
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 20px;
+}
+
+button {
+    background-color: aquamarine;
+    color: black;
+}
+
+input {
+    margin-right: 5px;
+}

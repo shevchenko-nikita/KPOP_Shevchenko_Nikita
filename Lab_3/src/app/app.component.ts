@@ -16,7 +16,7 @@ import { Component } from '@angular/core';
             <button type="submit">Solve</button>
         </form>
 
-        <div *ngIf="solved">
+        <div>
             <p>Root 1: {{ root1 }}</p>
             <p>Root 2: {{ root2 }}</p>
         </div>

@@ -16,7 +16,7 @@ function getAllworkers() {
     ]
     return workers;
 }
-    
+
 function logFirstAvailable(workers: {name: string, surname: string, available: boolean}[] = getAllworkers()) {
     console.log(`number of employee: ${workers.length}`);
     
