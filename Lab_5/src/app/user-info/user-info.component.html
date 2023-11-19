@@ -1,0 +1,10 @@
+<div class="main-container">
+
+    <h2>{{ data['element']['name']['first'] }} {{ data['element']['name']['last'] }}</h2>
+    <p>Стать: {{ data['element']['gender'] }}</p>
+    <p>Дата народження: {{ data['element']['dob']['date'] | date }}</p>
+    <p>Вік: {{ data['element']['dob']['age']}}</p>
+
+    <button mat-button (click)="onSelectUser(data['element'])">Обрати</button>
+
+</div>
